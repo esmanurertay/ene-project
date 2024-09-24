@@ -3,11 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>ENE Website</title>
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold">
-    Hello world!
-  </h1>
+    <!-- Header Section -->
+     <header class="bg-black text-ene-white font-gemunu uppercase py-4 lg:py-8">
+      <!-- Header Container -->
+       <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+        <!-- Logo -->
+        <a href="#" class=" text-3xl lg:text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-ene-yellow to-ene-white pl-10">ENE</a>
+      
+      <!-- Mobile Menu -->
+       <div class="block md:hidden pr-10">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-ene-white w-6 h-1 rounded-full"></div>
+          <div class="bg-ene-white w-6 h-1 rounded-full"></div>
+          <div class="bg-ene-white w-6 h-1 rounded-full"></div>
+        </div>
+       </div>
+
+        <!-- Navigation --> 
+      <nav class="hidden md:flex justify-around items-center flex-1">
+      <!-- Menu -->
+       <div class=" flex items-center text-base space-x-6 lg:space-x-8">
+        <a href="#" class="hover:text-ene-yellow transition duration-500">Movies</a>
+        <a href="#" class="hover:text-ene-yellow transition duration-500">celebrites</a>
+        <a href="#" class="hover:text-ene-yellow transition duration-500">blog</a>
+        <a href="#" class="hover:text-ene-yellow transition duration-500">news</a>
+        <a href="#" class="hover:text-ene-yellow transition duration-500">about</a>
+       </div>
+       <!-- Login Area -->
+       <div class ="flex items-center space-x-4 lg:space-x-8">
+        <!-- Search Area -->
+         <form>
+          <div class="border-r px-4 mx-4 py-1 border-ene-yellow group">
+            <input type="text" class="bg-transparent border-b border-ene-yellow focus:outline-none w-12 lg:w-22 lg:w-44 opacity-0 group-hover:opacity-100 transition duration-500">
+            <button class="group-hover:transition duration-500"><i class="fas fa-search group-hover:text-ene-yellow transition duration-500"></i></button>
+          </div>
+         </form>
+         <!-- SignUp Area -->
+          <div class="flex items-center space-x-4 lg:space-x-8 text-base">
+            <a href="#">Login</a>
+            <a href="#" class="bg-ene-yellow px-3 py-1 hover:bg-white cursor-pointer transition duration-500 text-black whitespace-nowrap ">Sign Up</a>
+          </div>
+       </div>
+      </nav>
+      </div>
+     </header>
+  
 </body>
 </html>

@@ -1,9 +1,9 @@
 {
-  "name": "website-project",
+  "name": "tailwind-tutorial",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -i ./input.css -o ./public/css/styles.css --watch"
+   "watch": "npx tailwindcss -i ./input.css -o ./public/css/styles.css --watch"
   },
   "keywords": [],
   "author": "",
